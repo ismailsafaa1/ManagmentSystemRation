@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{43421712-2737-4BEA-B7D2-09EB01F4355A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ManagmentSystemRation</RootNamespace>
+    <AssemblyName>ManagmentSystemRation</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Month1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Month1.Designer.cs">
+      <DependentUpon>Month1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Month10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Month10.Designer.cs">
+      <DependentUpon>Month10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Month11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Month11.Designer.cs">
+      <DependentUpon>Month11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Month12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Month12.Designer.cs">
+      <DependentUpon>Month12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Month2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Month2.Designer.cs">
+      <DependentUpon>Month2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Month3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Month3.Designer.cs">
+      <DependentUpon>Month3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Month4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Month4.Designer.cs">
+      <DependentUpon>Month4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Month5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Month5.Designer.cs">
+      <DependentUpon>Month5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Month6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Month6.Designer.cs">
+      <DependentUpon>Month6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Month7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Month7.Designer.cs">
+      <DependentUpon>Month7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Month8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Month8.Designer.cs">
+      <DependentUpon>Month8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Month9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Month9.Designer.cs">
+      <DependentUpon>Month9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Months.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Months.Designer.cs">
+      <DependentUpon>Months.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Month1.resx">
+      <DependentUpon>Month1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Month10.resx">
+      <DependentUpon>Month10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Month11.resx">
+      <DependentUpon>Month11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Month12.resx">
+      <DependentUpon>Month12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Month2.resx">
+      <DependentUpon>Month2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Month3.resx">
+      <DependentUpon>Month3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Month4.resx">
+      <DependentUpon>Month4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Month5.resx">
+      <DependentUpon>Month5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Month6.resx">
+      <DependentUpon>Month6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Month7.resx">
+      <DependentUpon>Month7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Month8.resx">
+      <DependentUpon>Month8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Month9.resx">
+      <DependentUpon>Month9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Months.resx">
+      <DependentUpon>Months.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-coffee-icon-icon-element-png-image_4237513.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4899501-200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\854951-200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1020979-200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4099967-200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5189838-200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1588773-200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5263816-200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1588772-200.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
